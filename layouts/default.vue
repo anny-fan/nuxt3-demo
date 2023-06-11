@@ -30,7 +30,7 @@
 </template>
 
 <script setup>
-const title = "Blog";
+const title = useState("title", () => "Blog");
 </script>
 
 <style>
